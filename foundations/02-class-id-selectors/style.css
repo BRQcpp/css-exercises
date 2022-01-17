@@ -1,0 +1,18 @@
+.c1 {
+    background-color: #FF007F;
+    font-family: "Veradana", "DejaVu Sans", sans-serif;
+}
+
+#id1 {
+    color: blue;
+    font-size: 36px;
+}
+
+.c2, #id2 {
+    font-size: 24px;
+}
+
+#id2 {
+    font-weight: bold;
+    background-color: #00FF80;
+}
