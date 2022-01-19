@@ -1,14 +1,40 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  height: 64px;
+  justify-content: center;
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  height: 38px;
+  align-self: center;
+}
+
+.left-links,  .right-links{
+  display: flex;
+  flex: 3;
+}
+
+.left-links ul, .right-links ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.left-links ul li, .right-links ul li {
+  margin: 0 20px;
+}
+
+.right-links ul {
+  flex-direction: row-reverse;
 }
 
 ul {
