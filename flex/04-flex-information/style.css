@@ -20,10 +20,6 @@ img {
   justify-content: center;
 }
 
-.content * {
-  
-}
-
 .column {
   display: flex;
   flex-direction: column;
@@ -34,7 +30,6 @@ img {
 }
 
 .column .text {
-  flex: 0 0 auto;
   text-align: center;
 }
 
